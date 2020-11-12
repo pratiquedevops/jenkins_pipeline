@@ -1,7 +1,10 @@
+import org.apache.tools.ant.types.Environment
 
 pipeline {
     agent any
+    environnement{
 
+    }
     stages {
         stage('Hello') {
             steps {
